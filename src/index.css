@@ -67,18 +67,16 @@ button:focus-visible {
 .components{
   border-left: #33b9d1 solid 8px;
   border-right: #33b9d1 solid 8px;
-  padding: 20px;
   margin-bottom: 60px;
-  background: #f8e39f;
-  color: #33b9d1;
+  background: #70706f;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.counter{
-  margin-left: 10px;
-  gap: 10px;
-}
 
 .play-button{ 
   background: "blue";
@@ -96,6 +94,7 @@ button:focus-visible {
   display: flex;
   gap: 2px;
 }
+
 
 .main{
   border: #ccc solid 2px;

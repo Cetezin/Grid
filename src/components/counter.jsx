@@ -12,9 +12,9 @@ function ViewCount({ count }) {
 function ClickController({ setCount }) {
   return (
     <div className="counter">
-      <button onClick={() => setCount((prev) => prev - 1)}>decrase by 1</button>
+      <button onClick={() => setCount((prev) => prev - 1)}>decrease by 1</button>
       <button onClick={() => setCount(0)}>Reset</button>
-      <button onClick={() => setCount((prev) => prev + 1)}>incrase by 1</button>
+      <button onClick={() => setCount((prev) => prev + 1)}>increase by 1</button>
     </div>
   );
 }

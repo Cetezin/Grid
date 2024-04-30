@@ -18,7 +18,7 @@ function Grid({ numRows, numCols }) {
         {!hide && <ListItems />}
         {!hide && <h1>Today's Date is {day}th</h1>}
         <hr></hr>
-        <Clock interval={1000} />
+        <Clock />
         < Counter />
         <hr></hr>
       </section>
